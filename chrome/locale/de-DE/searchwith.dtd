@@ -1,0 +1,43 @@
+<!ENTITY searchwith.context "Suchen mit">
+<!ENTITY searchwith.context.key "M">
+<!ENTITY searchwith.options "SearchWith Einstellungen">
+<!ENTITY searchwith "SearchWith">
+<!ENTITY service "Dienst">
+<!ENTITY services "Dienste">
+<!ENTITY engines "Suchmaschinen">
+<!ENTITY general "Allgemein">
+<!ENTITY add "Hinzufügen">
+<!ENTITY remove "Entfernen">
+<!ENTITY add.service "Dienst hinzufügen">
+<!ENTITY edit.service "Dienst bearbeiten">
+<!ENTITY remove.service "Dienst entfernen">
+<!ENTITY add.engine "Suchmaschine hinzufügen">
+<!ENTITY edit.engine "Suchmaschine bearbeiten">
+<!ENTITY remove.engine "Suchmaschine entfernen">
+<!ENTITY import.searchbar.plugins "Such-Plugins importieren">
+<!ENTITY engine.name "Name der Suchmaschine">
+<!ENTITY search.address "Adresse der Suchmaschine (z.B. http://google.com/search?q=)">
+<!ENTITY extra.options "Zusätzliche Optionen (z.B. &amp;ie=utf&amp;hl=en)">
+<!ENTITY disabled.service.label "--Deaktiviert--">
+<!ENTITY engine.none.label "--Keine--">
+<!ENTITY service.name "Dienstname">
+<!ENTITY search.engine "Suchmaschine">
+<!ENTITY service.options "Diensteinstellungen">
+<!ENTITY engine.options "Suchmaschineneinstellung">
+<!ENTITY new.service "Neuer Dienst">
+<!ENTITY new.engine "Neue Suchmaschine">
+<!ENTITY address.bar "Adressleiste">
+<!ENTITY advanced.search.title "SearchWith erweiterte Suche">
+<!ENTITY selection.label "Ausgewählten Text bearbeiten">
+<!ENTITY select.all "Alle auswählen">
+<!ENTITY more.service.engines "Mehr Suchmaschinen...">
+<!ENTITY advanced.search.enginelist.tooltip "Strg+Klick um mehrere Suchmaschinen zu wählen.">
+<!ENTITY search.button "Suche">
+<!ENTITY icon.path "Symbolpfad">
+<!ENTITY restore.defaults "Standard wiederherstellen">
+<!ENTITY move.up "Nach oben">
+<!ENTITY move.down "Nach unten">
+<!ENTITY browse "Suchen">
+<!ENTITY enable.context.menu "Kontextmenü aktivieren">
+<!ENTITY enable.tools.menu "Extras-Menü aktivieren">
+<!ENTITY search.plugin.dirs "Verzeichnisse für Such-Plugins">

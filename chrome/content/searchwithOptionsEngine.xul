@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://global/skin/global.css"?>
+
+<!DOCTYPE dialog SYSTEM "chrome://searchwith/locale/searchwith.dtd">
+
+<dialog 
+	id="searchwith-EditEnginePrefwindow"
+	windowtype="Browser:Preferences"
+	title="&edit.engine;"
+	flex="1"
+	persist="screenX screenY"
+	onload="SearchWithOptionsEngine.onLoad();"
+	ondialogaccept="return SearchWithOptionsEngine.acceptDialog();"
+	dialog="no"
+	xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+>
+			
+	<script type="application/x-javascript" src="chrome://searchwith/content/searchwith.js" />		
+	<script type="application/x-javascript" src="chrome://searchwith/content/searchwithOptionsEngine.js"/> 
+	<script type="application/x-javascript" src="chrome://searchwith/content/SearchWithService.js" />
+	<script type="application/x-javascript" src="chrome://searchwith/content/SearchWithEngine.js" />	
+	
+	<stringbundleset id="stringbundleset">
+        <stringbundle id="searchwith-strings" src="chrome://searchwith/locale/searchwith.properties"/>
+        <stringbundle id="searchwith-conquery" src="chrome://searchwith/locale/conquery.properties"/>
+    </stringbundleset>
+	
+		<vbox>
+			<groupbox label="&engine.options;">
+				<label id="searchwith-prefs-engine-lblLabel" control="searchwith-prefs-engine-label"
+					   value="&engine.name;"/>
+				<textbox id="searchwith-prefs-engine-label" width="450" />
+				<label id="searchwith-prefs-engine-lblLeftUrl" control="searchwith-prefs-engine-lefturl"
+					   value="&search.address;" />
+				<textbox id="searchwith-prefs-engine-lefturl" width="450"/>
+				<label id="searchwith-prefs-engine-lblRightUrl" control="searchwith-prefs-engine-righturl"
+					   value="&extra.options;" />
+				<textbox id="searchwith-prefs-engine-righturl" width="450" />
+				<label id="searchwith-prefs-engine-lblIconPath" control="searchwith-prefs-engine-iconpath"
+					   value="&icon.path;" />
+				<hbox>
+				<textbox id="searchwith-prefs-engine-iconpath" width="450" />
+				<!--image id="searchwith-prefs-engine-iconimg" src="" width="16" height="16" /-->
+				<button id="searchwith-prefs-engine-browseicon" label="&browse;"
+						 oncommand="SearchWithOptionsEngine.getIconFile();"/>
+				</hbox>
+				<label id="searchwith-prefs-engine-lblService" control="searchwith-prefs-engine-service"
+					   value="&service;" />
+                <menulist id="searchwith-prefs-engine-service" flex="1" >
+				    <menupopup id="searchwith-prefs-engine-service-popup">
+					   <menuitem id="sw-noservice-engine" label="&engine.none.label;" value="" selected="true" />
+				    </menupopup>
+                </menulist>						 
+			</groupbox>
+		</vbox>
+	
+</dialog>

@@ -1,0 +1,43 @@
+<!ENTITY searchwith.context "Buscar con">
+<!ENTITY searchwith.context.key "c">
+<!ENTITY searchwith.options "SearchWith - Opciones">
+<!ENTITY searchwith "SearchWith">
+<!ENTITY service "Servicio">
+<!ENTITY services "Servicios">
+<!ENTITY engines "Buscadores">
+<!ENTITY general "General">
+<!ENTITY add "Añadir">
+<!ENTITY remove "Borrar">
+<!ENTITY add.service "Añadir servicio">
+<!ENTITY edit.service "Editar servicio">
+<!ENTITY remove.service "Borrar servicio">
+<!ENTITY add.engine "Añadir buscador">
+<!ENTITY edit.engine "Editar buscador">
+<!ENTITY remove.engine "Borrar buscador">
+<!ENTITY import.searchbar.plugins "Importar buscadores">
+<!ENTITY engine.name "Nombre del buscador">
+<!ENTITY search.address "Dirección de búsqueda (p.ej. http://google.es/search?q=)">
+<!ENTITY extra.options "Opciones extra (p.ej: &amp;ie=utf&amp;hl=es)">
+<!ENTITY disabled.service.label "--Deshabilitado--">
+<!ENTITY engine.none.label "--Ninguno--">
+<!ENTITY service.name "Nombre del servicio">
+<!ENTITY search.engine "Buscador">
+<!ENTITY service.options "Opciones de servicios">
+<!ENTITY engine.options "Opciones de buscadores">
+<!ENTITY new.service "Nuevo servicio">
+<!ENTITY new.engine "Nuevo buscador">
+<!ENTITY address.bar "Barra de direcciones">
+<!ENTITY advanced.search.title "SearchWith - Búsqueda avanzada">
+<!ENTITY selection.label "Editar texto seleccionado">
+<!ENTITY select.all "Seleccionar todo">
+<!ENTITY more.service.engines "Más buscadores...">
+<!ENTITY advanced.search.enginelist.tooltip "Use Ctrl+Clic para seleccionar varios buscadores">
+<!ENTITY search.button "Buscar">
+<!ENTITY icon.path "Ruta del icono">
+<!ENTITY restore.defaults "Restaurar valores por defecto">
+<!ENTITY move.up "Mover arriba">
+<!ENTITY move.down "Mover abajo">
+<!ENTITY browse "Seleccionar">
+<!ENTITY enable.context.menu "Habilitar menú contextual">
+<!ENTITY enable.tools.menu "Habilitar menú Herramientas">
+<!ENTITY search.plugin.dirs "Carpeta de buscadores">

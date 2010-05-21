@@ -1,0 +1,43 @@
+<!ENTITY searchwith.context "Pretraži sa">
+<!ENTITY searchwith.context.key "s">
+<!ENTITY searchwith.options "SearchWith opcije">
+<!ENTITY searchwith "SearchWith">
+<!ENTITY service "Servis">
+<!ENTITY services "Servisi">
+<!ENTITY engines "Pogoni">
+<!ENTITY general "Općenito">
+<!ENTITY add "Dodaj">
+<!ENTITY remove "Ukloni">
+<!ENTITY add.service "Dodaj servis">
+<!ENTITY edit.service "Uredi servis">
+<!ENTITY remove.service "Ukloni servis">
+<!ENTITY add.engine "Dodaj pogon">
+<!ENTITY edit.engine "Uredi pogon">
+<!ENTITY remove.engine "Ukloni pogon">
+<!ENTITY import.searchbar.plugins "Uvezi dodatke za pretraživanje">
+<!ENTITY engine.name "Naziv pogona">
+<!ENTITY search.address "Adresa za pretraživanje (npr. http://google.com/search?q=)">
+<!ENTITY extra.options "Dodatne opcije (npr. &amp;ie=utf&amp;hl=en)">
+<!ENTITY disabled.service.label "--Onemogućeno--">
+<!ENTITY engine.none.label "--Niti jedno--">
+<!ENTITY service.name "Naziv servisa">
+<!ENTITY search.engine "Pogon za pretraživanje">
+<!ENTITY service.options "Opcije servisa">
+<!ENTITY engine.options "Opcije pogona">
+<!ENTITY new.service "Novi servis">
+<!ENTITY new.engine "Novi pogon">
+<!ENTITY address.bar "Adresna traka">
+<!ENTITY advanced.search.title "SearchWith Napredno pretraživanje">
+<!ENTITY selection.label "Uredi označeni tekst">
+<!ENTITY select.all "Sve odaberi">
+<!ENTITY more.service.engines "Još pogona...">
+<!ENTITY advanced.search.enginelist.tooltip "CTRL+Klik da biste odabrali višestruke pogone za pretraživanje">
+<!ENTITY search.button "Pretraži">
+<!ENTITY icon.path "Putanja ikone">
+<!ENTITY restore.defaults "Vrati zadane">
+<!ENTITY move.up "Pomakni gore">
+<!ENTITY move.down "Pomakni dolje">
+<!ENTITY browse "Pronađi">
+<!ENTITY enable.context.menu "Omogući kontekstni izbornik">
+<!ENTITY enable.tools.menu "Omogući izbornik alata">
+<!ENTITY search.plugin.dirs "Pretraži mape dodataka">

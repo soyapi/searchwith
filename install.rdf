@@ -1,0 +1,147 @@
+<?xml version="1.0"?>
+<RDF:RDF xmlns:em="http://www.mozilla.org/2004/em-rdf#"
+         xmlns:NC="http://home.netscape.com/NC-rdf#"
+         xmlns:RDF="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <RDF:Description RDF:about="rdf:#$T35Rb3"
+                   em:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   em:minVersion="1.5"
+                   em:maxVersion="3.6.*" />
+  <RDF:Description RDF:about="rdf:#$145Rb3"
+                   em:id="{3550f703-e582-4d05-9a08-453d09bdfdc6}"
+                   em:minVersion="1.5"
+                   em:maxVersion="3.0.*" />
+  <RDF:Description RDF:about="rdf:#$Y35Rb3"
+                   em:id="{a463f10c-3994-11da-9945-000d60ca027b}"
+                   em:minVersion="0.4+"
+                   em:maxVersion="1.2.*" />
+  <RDF:Description RDF:about="urn:mozilla:install-manifest"
+                   em:id="{79898015-E980-457c-BDE0-D2ECCAF4B654}"
+                   em:version="0.4.3"
+                   em:type="2"
+                   em:name="SearchWith"
+                   em:description="Search text with various search services"
+                   em:creator="Soyapi Mumba"
+                   em:homepageURL="http://searchwith.mozdev.org"
+                   em:optionsURL="chrome://searchwith/content/searchwithOptions.xul"
+                   em:iconURL="chrome://searchwith/skin/icon32.png">
+    <em:targetApplication RDF:resource="rdf:#$T35Rb3"/>
+    <em:targetApplication RDF:resource="rdf:#$Y35Rb3"/>
+    <em:targetApplication RDF:resource="rdf:#$145Rb3"/>
+    <em:contributor>Vasa Maximov, ConQuery (Mycroft Plugins Integration)</em:contributor>
+    <em:contributor>Steve McMillen (Thunderbird 3 compatibilty)</em:contributor>
+    <em:contributor>Luana Di Muzio, BabelZilla (Italian translation)</em:contributor>
+    <em:contributor>AlleyKat, BabelZilla (Danish translation)</em:contributor>
+    <em:contributor>Fenian, BabelZilla (German translation)</em:contributor>
+    <em:contributor>tegos, BabelZilla (Greek translation)</em:contributor>
+    <em:contributor>chuzo, BabelZilla (Spanish translation)</em:contributor>
+    <em:contributor>jojaba, BabelZilla (French translation)</em:contributor>
+    <em:contributor>krcko, BabelZilla (Croatian translation)</em:contributor>
+    <em:contributor>Alice0775, BabelZilla (Japanese translation)</em:contributor>
+    <em:contributor>pedsann, BabelZilla (Portuguese translation)</em:contributor>
+    <em:contributor>SerdarSahin, BabelZilla (Turkish translation)</em:contributor>
+	<em:contributor>Mark, BabelZilla (Dutch translation)</em:contributor>
+	<em:contributor>wladow, BabelZilla (Slovack translation)</em:contributor>
+    <em:file RDF:resource="urn:mozilla:extension:file:searchwith.jar"/>
+    <em:localized>
+      <Description>
+        <em:locale>da-DK</em:locale>
+        <em:name>SearchWith</em:name>
+        <em:description>Søg valgt tekst med forskellige søge-services</em:description>
+      </Description>
+    </em:localized>
+    <em:localized>
+      <Description>
+        <em:locale>de-DE</em:locale>
+        <em:name>SearchWith</em:name>
+        <em:description>Ausgewählten Text mit verschiedenen Suchdiensten suchen</em:description>
+      </Description>
+    </em:localized>
+    <em:localized>
+      <Description>
+        <em:locale>el-GR</em:locale>
+        <em:name>SearchWith</em:name>
+        <em:description>Αναζητήστε επιλεγμένο κείμενο με διάφορες υπηρεσίες αναζήτησης</em:description>
+      </Description>
+    </em:localized>
+    <em:localized>
+      <Description>
+        <em:locale>es-ES</em:locale>
+        <em:name>SearchWith</em:name>
+        <em:description>Realiza búsquedas con el texto seleccionado en varios buscadores</em:description>
+      </Description>
+    </em:localized>
+    <em:localized>
+      <Description>
+        <em:locale>fr-FR</em:locale>
+        <em:name>SearchWith</em:name>
+        <em:description>Recherche un texte sélectionné en utilisant divers services</em:description>
+      </Description>
+    </em:localized>
+    <em:localized>
+      <Description>
+        <em:locale>hr-HR</em:locale>
+        <em:name>SearchWith</em:name>
+        <em:description>Pretražuje odabrani tekst s različitim servisima za pretraživanje</em:description>
+      </Description>
+    </em:localized>
+    <em:localized>
+      <Description>
+        <em:locale>it-IT</em:locale>
+        <em:name>SearchWith</em:name>
+        <em:description>Permette di cercare il testo selezionato con vari servizi di ricerca</em:description>
+      </Description>
+    </em:localized>
+    <em:localized>
+      <Description>
+        <em:locale>ja-JP</em:locale>
+        <em:name>SearchWith</em:name>
+        <em:description>選択したテキストを様々な検索エンジンで検索します。</em:description>
+      </Description>
+    </em:localized>
+    <em:localized>
+      <Description>
+        <em:locale>nl-NL</em:locale>
+        <em:name>SearchWith</em:name>
+        <em:description>Zoek geselecteerde tekst met diverse zoekservices</em:description>
+      </Description>
+    </em:localized>
+    <em:localized>
+      <Description>
+        <em:locale>pt-BR</em:locale>
+        <em:name>SearchWith</em:name>
+        <em:description>Pesquisa o texto selecionado em vários serviços de pesquisa</em:description>
+      </Description>
+    </em:localized>
+    <em:localized>
+      <Description>
+        <em:locale>sk-SK</em:locale>
+        <em:name>SearchWith</em:name>
+        <em:description>Umožňuje vyhľadať označený text pomocou rôznych vyhľadávačov</em:description>
+      </Description>
+    </em:localized>
+    <em:localized>
+      <Description>
+        <em:locale>tr-TR</em:locale>
+        <em:name>SearchWith</em:name>
+        <em:description>Seçtiğiniz yazıyı çeşitli arama motorlarında aramaya yarar</em:description>
+      </Description>
+    </em:localized>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mozilla:extension:file:searchwith.jar"
+                   em:package="content/"
+                   em:skin="skin/classic/">
+    <em:locale>locale/en-US/</em:locale>
+    <em:locale>locale/da-DK/</em:locale>
+    <em:locale>locale/de-DE/</em:locale>
+    <em:locale>locale/el-GR/</em:locale>
+    <em:locale>locale/es-ES/</em:locale>
+    <em:locale>locale/fr-FR/</em:locale>
+    <em:locale>locale/hr-HR/</em:locale>
+    <em:locale>locale/it-IT/</em:locale>
+    <em:locale>locale/ja-JP/</em:locale>
+    <em:locale>locale/nl-NL/</em:locale>	
+    <em:locale>locale/pt-BR/</em:locale>
+    <em:locale>locale/sk-SK/</em:locale>	
+    <em:locale>locale/tr-TR/</em:locale>
+  </RDF:Description>
+</RDF:RDF>

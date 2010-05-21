@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://searchwith/skin/browser.css" type="text/css"?>
+<!DOCTYPE overlay SYSTEM "chrome://searchwith/locale/searchwith.dtd">
+
+<overlay id="searchwith" 
+         xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+         
+    <script type="application/x-javascript" src="chrome://global/content/strres.js"/>		
+    <script type="application/x-javascript" src="chrome://searchwith/content/searchwith.js"/>		
+    <script type="application/x-javascript" src="chrome://searchwith/content/searchwithOptions.js"/>
+    <script type="application/x-javascript" src="chrome://searchwith/content/SearchWithService.js"/>
+    <script type="application/x-javascript" src="chrome://searchwith/content/SearchWithEngine.js"/>
+    <script type="application/x-javascript" src="chrome://searchwith/content/conquery/sw-conquery.js"/>
+    
+ <stringbundleset id="stringbundleset">
+     <stringbundle id="searchwith-strings" src="chrome://searchwith/locale/searchwith.properties"/>
+     <stringbundle id="searchwith-conquery" src="chrome://searchwith/locale/conquery.properties"/>
+     <stringbundle id="sw_bundle_browser_region"
+                src="chrome://browser-region/locale/region.properties"/>
+ </stringbundleset>
+ <popup id="contentAreaContextMenu" >
+    <menu id="context-searchwith" label="&searchwith.context;" insertafter="context-searchselect" 
+		accesskey="&searchwith.context.key;" >
+	<menupopup id="popup-searchwith">
+
+	</menupopup>
+    </menu>
+ </popup>
+ 
+</overlay>

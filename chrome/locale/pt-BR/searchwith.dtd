@@ -1,0 +1,43 @@
+<!ENTITY searchwith.context "Pesquisar Com">
+<!ENTITY searchwith.context.key "P">
+<!ENTITY searchwith.options "Opções SearchWith">
+<!ENTITY searchwith "SearchWith">
+<!ENTITY service "Serviço">
+<!ENTITY services "Serviços">
+<!ENTITY engines "Sistemas">
+<!ENTITY general "Geral">
+<!ENTITY add "Adicionar">
+<!ENTITY remove "Excluir">
+<!ENTITY add.service "Adicionar Serviço">
+<!ENTITY edit.service "Editar Serviço">
+<!ENTITY remove.service "Excluir Serviço">
+<!ENTITY add.engine "Adicionar Sistema">
+<!ENTITY edit.engine "Editar Sistema">
+<!ENTITY remove.engine "Excluir Sistema">
+<!ENTITY import.searchbar.plugins "Importar Plugins de Pesquisa">
+<!ENTITY engine.name "Nome do Sistema">
+<!ENTITY search.address "Endereço do sistema de Pesquisa (ex: http://google.com.br/search?q=)">
+<!ENTITY extra.options "Parâmetros extras (ex: &amp;ie=utf&amp;hl=pt)">
+<!ENTITY disabled.service.label "--Desabilitado--">
+<!ENTITY engine.none.label "--Nenhum--">
+<!ENTITY service.name "Nome do Serviço">
+<!ENTITY search.engine "Sistema de Pesquisa">
+<!ENTITY service.options "Opções de Serviço">
+<!ENTITY engine.options "Opções de Sistema">
+<!ENTITY new.service "Novo Serviço">
+<!ENTITY new.engine "Novo Sistema">
+<!ENTITY address.bar "Barra de Endereço">
+<!ENTITY advanced.search.title "Pesquisa Avançada SearchWith">
+<!ENTITY selection.label "Editar Texto Selecionado">
+<!ENTITY select.all "Selecionar Todos">
+<!ENTITY more.service.engines "Mais sistemas...">
+<!ENTITY advanced.search.enginelist.tooltip "para selecionar múltiplos sistemas segure a tecla CTRL ao clicar">
+<!ENTITY search.button "Pesquisar">
+<!ENTITY icon.path "Caminho do Ícone">
+<!ENTITY restore.defaults "Restaurar Configurações Originais">
+<!ENTITY move.up "Mover para cima">
+<!ENTITY move.down "Mover para baixo">
+<!ENTITY browse "Procurar">
+<!ENTITY enable.context.menu "Habilitar o menu de contexto">
+<!ENTITY enable.tools.menu "Habilitar o menu Ferramentas">
+<!ENTITY search.plugin.dirs "Pesquisar pasta de plugins">

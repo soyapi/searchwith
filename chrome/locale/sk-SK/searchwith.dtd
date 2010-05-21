@@ -1,0 +1,43 @@
+<!ENTITY searchwith.context "Hľadať pomocou">
+<!ENTITY searchwith.context.key "H">
+<!ENTITY searchwith.options "Nastavenia rozšírenia SearchWith">
+<!ENTITY searchwith "SearchWith">
+<!ENTITY service "Služba">
+<!ENTITY services "Služby">
+<!ENTITY engines "Vyhľadávacie moduly">
+<!ENTITY general "Všeobecné">
+<!ENTITY add "Pridať">
+<!ENTITY remove "Odstrániť">
+<!ENTITY add.service "Pridať službu">
+<!ENTITY edit.service "Upraviť službu">
+<!ENTITY remove.service "Odstrániť službu">
+<!ENTITY add.engine "Pridať modul">
+<!ENTITY edit.engine "Upraviť modul">
+<!ENTITY remove.engine "Odstrániť modul">
+<!ENTITY import.searchbar.plugins "Importovať vyhľadávacie moduly">
+<!ENTITY engine.name "Názov modulu">
+<!ENTITY search.address "Adresa vyhľadávania (napr. http://google.com/search?q=)">
+<!ENTITY extra.options "Extra nastavenia (napr. &amp;ie=utf&amp;hl=en)">
+<!ENTITY disabled.service.label "--vypnuté--">
+<!ENTITY engine.none.label "--žiadne--">
+<!ENTITY service.name "Názov služby">
+<!ENTITY search.engine "Vyhľadávací modul">
+<!ENTITY service.options "Nastavenie služby">
+<!ENTITY engine.options "Nastavenie modulu">
+<!ENTITY new.service "Nová služba">
+<!ENTITY new.engine "Nový modul">
+<!ENTITY address.bar "Panel Adresa">
+<!ENTITY advanced.search.title "Rozšírené vyhľadávanie SearchWith">
+<!ENTITY selection.label "Upraviť označený text">
+<!ENTITY select.all "Vybrať všetko">
+<!ENTITY more.service.engines "Ďalšie vyhľadávacie moduly...">
+<!ENTITY advanced.search.enginelist.tooltip "Použite CTRL+kliknutie, ak chcete označiť viac vyhľadávacích modulov">
+<!ENTITY search.button "Hľadať">
+<!ENTITY icon.path "Cesta k ikone">
+<!ENTITY restore.defaults "Obnoviť predvolené">
+<!ENTITY move.up "Posunúť nahor">
+<!ENTITY move.down "Posunúť nadol">
+<!ENTITY browse "Prehľadávať">
+<!ENTITY enable.context.menu "Povoliť v kontextovej ponuke">
+<!ENTITY enable.tools.menu "Povoliť v ponuke Nástroje">
+<!ENTITY search.plugin.dirs "Priečinky vyhľadávacích modulov">

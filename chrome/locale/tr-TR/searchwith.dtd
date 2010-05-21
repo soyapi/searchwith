@@ -1,0 +1,43 @@
+<!ENTITY searchwith.context "SearchWith ile ara">
+<!ENTITY searchwith.context.key "W">
+<!ENTITY searchwith.options "SearchWith Ayarları">
+<!ENTITY searchwith "SearchWith">
+<!ENTITY service "Servis">
+<!ENTITY services "Servisler">
+<!ENTITY engines "Arama motorları">
+<!ENTITY general "Genel">
+<!ENTITY add "Ekle">
+<!ENTITY remove "Çıkart">
+<!ENTITY add.service "Servis ekle">
+<!ENTITY edit.service "Servis düzenle">
+<!ENTITY remove.service "Servis sil">
+<!ENTITY add.engine "Arama motoru ekle">
+<!ENTITY edit.engine "Arama motoru düzenle">
+<!ENTITY remove.engine "Arama motoru sil">
+<!ENTITY import.searchbar.plugins "Arama eklentisini Al">
+<!ENTITY engine.name "Arama motoru ismi">
+<!ENTITY search.address "Arama adresi (Örneğin. http://google.com.tr/search?q=)">
+<!ENTITY extra.options "Ekstra ayarlar (Örneğin. &amp;ie=utf&amp;hl=tr)">
+<!ENTITY disabled.service.label "--Pasif--">
+<!ENTITY engine.none.label "--Yok--">
+<!ENTITY service.name "Servis adı">
+<!ENTITY search.engine "Arama motoru">
+<!ENTITY service.options "Servis ayarları">
+<!ENTITY engine.options "Arama motoru ayarları">
+<!ENTITY new.service "Yeni servis">
+<!ENTITY new.engine "Yeni servis">
+<!ENTITY address.bar "Adres kutusu">
+<!ENTITY advanced.search.title "SearchWith Gelişmiş Arama">
+<!ENTITY selection.label "Seçilen yazıyı düzenle">
+<!ENTITY select.all "Tümünü Seç">
+<!ENTITY more.service.engines "Diğer Arama Motorları...">
+<!ENTITY advanced.search.enginelist.tooltip "Çoklu Arama motolarını seçmek için CTRL + tıklayın">
+<!ENTITY search.button "Ara">
+<!ENTITY icon.path "Simge adresi">
+<!ENTITY restore.defaults "Ayarları Sıfırla">
+<!ENTITY move.up "Yukarı">
+<!ENTITY move.down "Aşağı">
+<!ENTITY browse "Gözat">
+<!ENTITY enable.context.menu "Sağ Tıklama menüsü aktif">
+<!ENTITY enable.tools.menu "Araç menüsünü Aktif">
+<!ENTITY search.plugin.dirs "Arama eklentisi klasörleri">

@@ -1,0 +1,43 @@
+<!ENTITY searchwith.context "Search With">
+<!ENTITY searchwith.context.key "W">
+<!ENTITY searchwith.options "SearchWith Options">
+<!ENTITY searchwith "SearchWith">
+<!ENTITY service "Service">
+<!ENTITY services "Services">
+<!ENTITY engines "Engines">
+<!ENTITY general "General">
+<!ENTITY add "Add">
+<!ENTITY remove "Remove">
+<!ENTITY add.service "Add Service">
+<!ENTITY edit.service "Edit Service">
+<!ENTITY remove.service "Remove Service">
+<!ENTITY add.engine "Add Engine">
+<!ENTITY edit.engine "Edit Engine">
+<!ENTITY remove.engine "Remove Engine">
+<!ENTITY import.searchbar.plugins "Import Search Plugins">
+<!ENTITY engine.name "Engine Name">
+<!ENTITY search.address "Search Address (e.g. http://google.com/search?q=)">
+<!ENTITY extra.options "Extra Options (e.g. &amp;ie=utf&amp;hl=en)">
+<!ENTITY disabled.service.label "--Disabled--">
+<!ENTITY engine.none.label "--None--">
+<!ENTITY service.name "Service Name">
+<!ENTITY search.engine "Search Engine">
+<!ENTITY service.options "Service Options">
+<!ENTITY engine.options "Engine Options">
+<!ENTITY new.service "New Service">
+<!ENTITY new.engine "New Engine">
+<!ENTITY address.bar "Address Bar">
+<!ENTITY advanced.search.title "SearchWith Advanced Search">
+<!ENTITY selection.label "Edit Selected Text">
+<!ENTITY select.all "Select All">
+<!ENTITY more.service.engines "More engines...">
+<!ENTITY advanced.search.enginelist.tooltip "CTRL+Click to select multiple search engines">
+<!ENTITY search.button "Search">
+<!ENTITY icon.path "Icon Path">
+<!ENTITY restore.defaults "Restore Defaults">
+<!ENTITY move.up "Move Up">
+<!ENTITY move.down "Move Down">
+<!ENTITY browse "Browse">
+<!ENTITY enable.context.menu "Enable context menu">
+<!ENTITY enable.tools.menu "Enable Tools menu">
+<!ENTITY search.plugin.dirs "Search plugin folders">

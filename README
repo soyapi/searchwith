@@ -1,0 +1,10 @@
+Search selected text with various search services.
+
+SearchWith extension allows you to search selected with various search services. It adds a "Search With" sub menu on the context menu (right-click menu) with a configurable list of search services that can be used to search the highlighted text.
+
+SearchWith encourages a simple context sub-menu by allowing one search engine per search service.
+
+Hold down SHIFT key while selecting any of the search options to edit the selected text or to change the search engine associated with it.
+
+Hold down CTRL key to quote ("") the selected text
+

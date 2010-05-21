@@ -1,0 +1,43 @@
+<!ENTITY searchwith.context "Zoeken met">
+<!ENTITY searchwith.context.key "M">
+<!ENTITY searchwith.options "SearchWith opties">
+<!ENTITY searchwith "SearchWith">
+<!ENTITY service "Service">
+<!ENTITY services "Service">
+<!ENTITY engines "Zoekmachines">
+<!ENTITY general "Algemeen">
+<!ENTITY add "Toevoegen">
+<!ENTITY remove "Verwijderen">
+<!ENTITY add.service "Service toevoegen">
+<!ENTITY edit.service "Service wijzigen">
+<!ENTITY remove.service "Service verwijderen">
+<!ENTITY add.engine "Zoekmachine toevoegen">
+<!ENTITY edit.engine "Zoekmachine wijzigen">
+<!ENTITY remove.engine "Zoekmachine verwijderen">
+<!ENTITY import.searchbar.plugins "Zoek plugins importeren">
+<!ENTITY engine.name "Zoekmachine-naam">
+<!ENTITY search.address "Zoekadres (b.v. http://google.com/search?q=)">
+<!ENTITY extra.options "Extra opties (b.v. &amp;ie=utf&amp;hl=nl)">
+<!ENTITY disabled.service.label "--Uitgeschakeld--">
+<!ENTITY engine.none.label "--Geen--">
+<!ENTITY service.name "Servicenaam">
+<!ENTITY search.engine "Zoekmachine">
+<!ENTITY service.options "Service opties">
+<!ENTITY engine.options "Zoekmachine opties">
+<!ENTITY new.service "Nieuwe service">
+<!ENTITY new.engine "Nieuwe zoekmachine">
+<!ENTITY address.bar "Adresbalk">
+<!ENTITY advanced.search.title "SearchWith geavanceerd zoeken">
+<!ENTITY selection.label "Geselecteerde tekst wijzigen">
+<!ENTITY select.all "Alles selecteren">
+<!ENTITY more.service.engines "Meer zoekmachines...">
+<!ENTITY advanced.search.enginelist.tooltip "CTRL+klik om meerdere zoekmachines te selecteren">
+<!ENTITY search.button "Zoeken">
+<!ENTITY icon.path "Pad naar pictogram">
+<!ENTITY restore.defaults "Standaardinstellingen terugzetten">
+<!ENTITY move.up "Omhoog">
+<!ENTITY move.down "Omlaag">
+<!ENTITY browse "Bladeren">
+<!ENTITY enable.context.menu "Contextmenu inschakelen">
+<!ENTITY enable.tools.menu "Extra menu inschakelen">
+<!ENTITY search.plugin.dirs "Mappen met zoek-plugins">

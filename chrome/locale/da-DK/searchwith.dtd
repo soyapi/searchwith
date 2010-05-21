@@ -1,0 +1,43 @@
+<!ENTITY searchwith.context "Søg Med">
+<!ENTITY searchwith.context.key "M">
+<!ENTITY searchwith.options "SearchWith indstillinger">
+<!ENTITY searchwith "SearchWith">
+<!ENTITY service "Service">
+<!ENTITY services "Services">
+<!ENTITY engines "Maskiner">
+<!ENTITY general "Generel">
+<!ENTITY add "Tilføj">
+<!ENTITY remove "Fjern">
+<!ENTITY add.service "Tilføj service">
+<!ENTITY edit.service "Rediger service">
+<!ENTITY remove.service "Fjern service">
+<!ENTITY add.engine "Tilføj maskine">
+<!ENTITY edit.engine "Rediger maskine">
+<!ENTITY remove.engine "Fjern maskine">
+<!ENTITY import.searchbar.plugins "Importér søgeplugins">
+<!ENTITY engine.name "Maskine navn">
+<!ENTITY search.address "Søgeadresse (f.eks. http://google.com/search?q=)">
+<!ENTITY extra.options "Ekstra indstillinger (f.eks. &amp;ie=utf&amp;hl=en)">
+<!ENTITY disabled.service.label "--Slået fra--">
+<!ENTITY engine.none.label "--Ingen--">
+<!ENTITY service.name "Servicenavn">
+<!ENTITY search.engine "Søgemaskine">
+<!ENTITY service.options "Serviceindstillinger">
+<!ENTITY engine.options "Maskinindstillinger">
+<!ENTITY new.service "Ny service">
+<!ENTITY new.engine "Ny maskine">
+<!ENTITY address.bar "Adresselinje">
+<!ENTITY advanced.search.title "SearchWith avanceret søg">
+<!ENTITY selection.label "Ret valgte tekst">
+<!ENTITY select.all "Vælg alle">
+<!ENTITY more.service.engines "Flere maskiner...">
+<!ENTITY advanced.search.enginelist.tooltip "Ctrl+klik for at vælge flere søgemaskiner">
+<!ENTITY search.button "Søg">
+<!ENTITY icon.path "Ikon-sti">
+<!ENTITY restore.defaults "Genetablér standarder">
+<!ENTITY move.up "Flyt op">
+<!ENTITY move.down "Flyt ned">
+<!ENTITY browse "Gennemse">
+<!ENTITY enable.context.menu "Slå kontekstmenu til">
+<!ENTITY enable.tools.menu "Slå Funktioner-menu til">
+<!ENTITY search.plugin.dirs "Søgeplugin mapper">

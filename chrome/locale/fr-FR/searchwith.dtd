@@ -1,0 +1,43 @@
+<!ENTITY searchwith.context "Rechercher avec...">
+<!ENTITY searchwith.context.key "v">
+<!ENTITY searchwith.options "Options de SearchWith">
+<!ENTITY searchwith "SearchWith">
+<!ENTITY service "Service">
+<!ENTITY services "Services">
+<!ENTITY engines "Moteurs">
+<!ENTITY general "Général">
+<!ENTITY add "Ajouter">
+<!ENTITY remove "Supprimer">
+<!ENTITY add.service "Ajouter le service">
+<!ENTITY edit.service "Modifier le service">
+<!ENTITY remove.service "Supprimer le service">
+<!ENTITY add.engine "Ajouter le moteur">
+<!ENTITY edit.engine "Modifier le moteur">
+<!ENTITY remove.engine "Supprimer le moteur">
+<!ENTITY import.searchbar.plugins "Importer des plugins de recherche installés">
+<!ENTITY engine.name "Nom du moteur">
+<!ENTITY search.address "Adresse de recherche (ex. : http://google.com/search?q=)">
+<!ENTITY extra.options "Options supplémentaires (ex. : &amp;ie=utf&amp;hl=en)">
+<!ENTITY disabled.service.label "--Désactivé--">
+<!ENTITY engine.none.label "--Aucun--">
+<!ENTITY service.name "Nom du service">
+<!ENTITY search.engine "Moteur de recherche">
+<!ENTITY service.options "Options du service">
+<!ENTITY engine.options "Options du moteur">
+<!ENTITY new.service "Nouveau service">
+<!ENTITY new.engine "Nouveau moteur">
+<!ENTITY address.bar "Barre d&apos;adresse">
+<!ENTITY advanced.search.title "Recherche avancé de SearchWith">
+<!ENTITY selection.label "Modifier le texte sélectionné">
+<!ENTITY select.all "Tout sélectionner">
+<!ENTITY more.service.engines "Plus de moteurs...">
+<!ENTITY advanced.search.enginelist.tooltip "CTRL+clic pour sélectionner plusieurs moteurs">
+<!ENTITY search.button "Rechercher">
+<!ENTITY icon.path "Emplacement de l&apos;icône">
+<!ENTITY restore.defaults "Paramètres par défaut">
+<!ENTITY move.up "Monter">
+<!ENTITY move.down "Descendre">
+<!ENTITY browse "Parcourir...">
+<!ENTITY enable.context.menu "Afficher dans le menu contextuel">
+<!ENTITY enable.tools.menu "Afficher dans le menu &apos;Outils&apos;">
+<!ENTITY search.plugin.dirs "Rechercher les dossiers du plugin">

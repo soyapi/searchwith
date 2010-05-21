@@ -1,0 +1,43 @@
+<!ENTITY searchwith.context "SearchWithで検索">
+<!ENTITY searchwith.context.key "W">
+<!ENTITY searchwith.options "SearchWithの設定">
+<!ENTITY searchwith "SearchWith">
+<!ENTITY service "サービス">
+<!ENTITY services "サービス">
+<!ENTITY engines "エンジン">
+<!ENTITY general "一般">
+<!ENTITY add "追加">
+<!ENTITY remove "削除">
+<!ENTITY add.service "サービスを追加">
+<!ENTITY edit.service "サービスを編集">
+<!ENTITY remove.service "サービスを削除">
+<!ENTITY add.engine "エンジンを追加">
+<!ENTITY edit.engine "エンジンを編集">
+<!ENTITY remove.engine "エンジンを削除">
+<!ENTITY import.searchbar.plugins "検索プラグインをインポート">
+<!ENTITY engine.name "エンジン名">
+<!ENTITY search.address "検索アドレス（例：http://google.co.jp/search?q=）">
+<!ENTITY extra.options "追加オプション（例：&amp;ie=utf&amp;hl=ja）">
+<!ENTITY disabled.service.label "- 無効 -">
+<!ENTITY engine.none.label "- なし -">
+<!ENTITY service.name "サービス名">
+<!ENTITY search.engine "検索エンジン">
+<!ENTITY service.options "サービス設定">
+<!ENTITY engine.options "エンジン設定">
+<!ENTITY new.service "新しいサービス">
+<!ENTITY new.engine "新しいエンジン">
+<!ENTITY address.bar "アドレスバー">
+<!ENTITY advanced.search.title "SearchWith 高度な検索">
+<!ENTITY selection.label "選択テキストを編集">
+<!ENTITY select.all "すべて選択">
+<!ENTITY more.service.engines "他の検索エンジン...">
+<!ENTITY advanced.search.enginelist.tooltip "CTRL+Click で複数の検索エンジンを選択">
+<!ENTITY search.button "検索">
+<!ENTITY icon.path "アイコンパス">
+<!ENTITY restore.defaults "デフォルトに戻す">
+<!ENTITY move.up "上に移動">
+<!ENTITY move.down "下に移動">
+<!ENTITY browse "参照">
+<!ENTITY enable.context.menu "コンテキストメニューにSearchWithで検索を表示する">
+<!ENTITY enable.tools.menu "“ツール”メニューに表示する">
+<!ENTITY search.plugin.dirs "検索プラグインフォルダ">

@@ -1,0 +1,128 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://global/skin/global.css"?>
+
+<!DOCTYPE dialog SYSTEM "chrome://searchwith/locale/searchwith.dtd">
+
+<dialog type="searchwithPrefwindowType"
+            id="searchwithPrefwindow"
+            windowtype="Browser:Preferences"
+            title="&searchwith.options;"
+			flex="1"
+            onload="SearchWithOptions.onLoad();"
+			ondialogaccept="return SearchWithOptions.onAccept();"
+			persist="screenX screenY"
+            xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+			>
+	<script type="application/x-javascript" src="chrome://global/content/strres.js"/>		
+	<script type="application/x-javascript" src="chrome://searchwith/content/searchwith.js"/>		
+	<script type="application/x-javascript" src="chrome://searchwith/content/searchwithOptions.js"/>
+	<script type="application/x-javascript" src="chrome://searchwith/content/SearchWithService.js"/>
+	<script type="application/x-javascript" src="chrome://searchwith/content/SearchWithEngine.js"/>
+	<script type="application/x-javascript" src="chrome://searchwith/content/conquery/main.js"/>
+	<script type="application/x-javascript" src="chrome://searchwith/content/conquery/sw-conquery.js"/>
+	<stringbundleset id="stringbundleset">
+        <stringbundle id="searchwith-strings" src="chrome://searchwith/locale/searchwith.properties"/>
+        <stringbundle id="searchwith-conquery" src="chrome://searchwith/locale/conquery.properties"/>
+		<stringbundle id="sw_bundle_browser_region"
+                src="chrome://browser-region/locale/region.properties"/>
+    </stringbundleset>
+    
+    <tabbox>
+        <tabs>
+            <tab label="&services;"/>
+            <tab label="&engines;"/>
+            <tab label="&general;"/>
+        </tabs>
+        <tabpanels>
+            <tabpanel id="tpanelServices" orient="vertical">
+				<label id="searchwith-prefs-new-service-lbl" control="searchwith-prefs-new-service"
+				   value="&service.name;"/>
+                <hbox flex="1">
+                    <hbox>
+                        <vbox>
+                            <textbox id="searchwith-prefs-new-service" 
+                                oninput="SearchWithOptions.checkAddServiceBtn();" />
+                            <listbox id="searchwith-prefs-service-list" seltype="single" 
+                                     onselect="SearchWithOptions.refreshServiceBtns();"
+																		 ondblclick="SearchWithOptions.editService();"
+                                     flex="1" height="350" width="300">
+                            </listbox>
+                            
+                        </vbox>
+                        <vbox>
+                            <button id="searchwith-prefs-add-service-button" disabled="true"
+                                    label="&add.service;" oncommand="SearchWithOptions.addService();"/>
+                            <button id="searchwith-prefs-edit-service-button" label="&edit.service;" 
+                                    oncommand="SearchWithOptions.editService();" />
+                            <button id="searchwith-prefs-remove-service-button" label="&remove.service;"  
+                                    oncommand="SearchWithOptions.removeService();" />
+                            <spacer flex="1" />
+                            <button id="searchwith-prefs-service-moveup" label="&move.up;"  
+                                    oncommand="SearchWithOptions.moveService('up');" />
+                            <button id="searchwith-prefs-service-movedown" label="&move.down;"  
+                                    oncommand="SearchWithOptions.moveService('down');" />
+                            <spacer flex="3" />
+                            <button id="searchwith-prefs-service-defaults" label="&restore.defaults;" 
+                                oncommand="SearchWithOptions.restoreDefaults();" />
+                        </vbox>
+                    </hbox>
+                </hbox>	
+            </tabpanel>
+            <tabpanel id="tpanelEngines" orient="vertical">
+				<label id="searchwith-prefs-new-service-lbl" control="searchwith-prefs-new-service"
+					   value="&engine.name;"/>
+                <hbox flex="1">
+                    <hbox>
+                        <vbox>
+                            <textbox id="searchwith-prefs-new-engine" value="" 
+                                 oninput="SearchWithOptions.checkAddEngineBtn();" />
+                            <listbox id="searchwith-prefs-engine-list" seltype="single" 
+							     ondblclick="SearchWithOptions.editEngine();"
+							     
+                                 flex="1" height="350" width="300">
+                            </listbox>
+                        </vbox>
+                        
+                        <vbox>
+                            <button id="searchwith-prefs-add-engine-button" disabled="true"
+                                label="&add.engine;" oncommand="SearchWithOptions.addEngine();"/>
+                            <button id="searchwith-prefs-edit-engine-button" label="&edit.engine;" 
+                                oncommand="SearchWithOptions.editEngine();" />
+                            <button id="searchwith-prefs-remove-engine-button" label="&remove.engine;"
+                                oncommand="SearchWithOptions.removeEngine();" />
+                            <spacer flex="1" />
+                            <button id="searchwith-prefs-engine-mycroftbtn" label="&import.searchbar.plugins;" 
+                            oncommand="SearchWithOptions.loadMycroftPlugins();"/>
+                            <button id="searchwith-prefs-engine-defaults" label="&restore.defaults;" 
+                            oncommand="SearchWithOptions.restoreDefaults();"/>
+                        </vbox>
+                    </hbox>
+                </hbox>	
+            </tabpanel>
+            <tabpanel>
+                <vbox>
+                <checkbox id="searchwith-prefs-enable-context" label="&enable.context.menu;"
+                          oncommand="SearchWithOptions.changeShowContext();"  />
+                <spacer />
+                <groupbox orient="vertival">
+                    <caption label="&search.plugin.dirs;" />
+                    <hbox flex="1">
+                        <textbox id="searchwith-prefs-new-plugindir" width="350" /> 
+						<spacer />
+                        <button label="&add;" oncommand="SearchWithOptions.addDir();" />
+                    </hbox>
+					<listbox id="searchwith-prefs-plugin-dirlist" seltype="single" 
+						rows="5" width="450">
+					</listbox>
+                    <hbox dir="reverse">    
+						
+						<button id="searchwith-prefs-remove-plugindir" 
+                                label="&remove;" oncommand="SearchWithOptions.removePluginDir();" />
+                    </hbox>
+                </groupbox>
+                </vbox>
+            </tabpanel>
+        </tabpanels>
+    </tabbox>
+</dialog>
+

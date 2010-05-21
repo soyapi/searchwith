@@ -1,0 +1,59 @@
+<!ENTITY searchwith.context "Cerca con">
+<!ENTITY searchwith.context.key "C">
+<!ENTITY searchwith.options "Impostazioni di SearchWith">
+<!ENTITY searchwith "SearchWith">
+
+<!ENTITY service "Servizio">
+<!ENTITY services "Servizi">
+<!ENTITY engines "Motori">
+<!ENTITY general "Generali">
+
+<!ENTITY add "Aggiungi...">
+<!ENTITY remove "Elimina">
+<!ENTITY add.service "Aggiungi servizio">
+<!ENTITY edit.service "Modifica servizio">
+<!ENTITY remove.service "Elimina servizio">
+
+<!ENTITY add.engine "Aggiungi motore">
+<!ENTITY edit.engine "Modifica motore">
+<!ENTITY remove.engine "Elimina motore">
+<!ENTITY import.searchbar.plugins "Importa i motori della barra di ricerca">
+
+<!ENTITY engine.name "Nome del motore">
+<!ENTITY search.address "Indirizzo di ricerca (es: http://google.com/search?q=)">
+<!ENTITY extra.options "Opzioni supplementari (es: &amp;ie=utf&amp;hl=en)">
+
+<!ENTITY disabled.service.label  "--Disattivato--">
+<!ENTITY engine.none.label       "--Nessuno--">
+
+<!ENTITY service.name "Nome del servizio">
+<!ENTITY search.engine "Motore di ricerca">
+
+<!ENTITY service.options "Opzioni del servizio">
+<!ENTITY engine.options "Opzioni del motore">
+
+<!ENTITY new.service "Nuovo servizio">
+<!ENTITY new.engine "Nuovo motore">
+
+<!ENTITY address.bar "Barra degli indirizzi">
+<!--ENTITY all "Tutto"-->
+
+<!--ENTITY edit.selection "Modifica la selezione"-->
+<!ENTITY advanced.search.title "Ricerca avanzata di SearchWith">
+<!ENTITY selection.label "Modifica il testo selezionato">
+<!ENTITY select.all "Seleziona tutto">
+<!ENTITY more.service.engines "Altri motori di ricerca...">
+<!ENTITY advanced.search.enginelist.tooltip "CTRL+Clic per selezionare molteplici motori di ricerca">
+<!ENTITY search.button "Cerca">
+
+<!ENTITY icon.path "Percorso dell'icona">
+<!ENTITY restore.defaults "Ripristina impostazioni predefinite">
+
+<!ENTITY move.up "Sposta su">
+<!ENTITY move.down "Sposta giù">
+<!ENTITY browse "Sfoglia...">
+
+<!ENTITY enable.context.menu "Attiva il menu contestuale">
+<!ENTITY enable.tools.menu "Inserisci nel menu 'Strumenti'">
+<!ENTITY search.plugin.dirs "Cartelle dei motori di ricerca">
+
