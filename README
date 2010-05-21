@@ -1,3 +1,5 @@
+SearchWith extension for Mozilla Applications (Firefox, Thunderbird)
+
 Search selected text with various search services.
 
 SearchWith extension allows you to search selected with various search services. It adds a "Search With" sub menu on the context menu (right-click menu) with a configurable list of search services that can be used to search the highlighted text.
