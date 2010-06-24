@@ -1,20 +1,20 @@
-content	searchwith	jar:chrome/searchwith.jar!/content/
+content	searchwith	chrome/content/
 
 overlay	chrome://browser/content/browser.xul	chrome://searchwith/content/searchwith.xul
 overlay	chrome://messenger/content/mailWindowOverlay.xul	chrome://searchwith/content/searchwithMail.xul
 overlay	chrome://messenger/content/messengercompose/messengercompose.xul	chrome://searchwith/content/searchwithMail.xul
 
-skin	searchwith	classic/1.0	jar:chrome/searchwith.jar!/skin/classic/
+skin	searchwith	classic/1.0	chrome/skin/classic/
 style	chrome://global/content/customizeToolbar.xul	chrome://searchwith/skin/browser.css
 
-locale	searchwith	en-US	jar:chrome/searchwith.jar!/locale/en-US/
-locale	searchwith	da-DK	jar:chrome/searchwith.jar!/locale/da-DK/
-locale	searchwith	de-DE	jar:chrome/searchwith.jar!/locale/de-DE/
-locale	searchwith	el-GR	jar:chrome/searchwith.jar!/locale/el-GR/
-locale	searchwith	es-ES	jar:chrome/searchwith.jar!/locale/es-ES/
-locale	searchwith	fr-FR	jar:chrome/searchwith.jar!/locale/fr-FR/
-locale	searchwith	hr-HR	jar:chrome/searchwith.jar!/locale/hr-HR/
-locale	searchwith	it-IT	jar:chrome/searchwith.jar!/locale/it-IT/
-locale	searchwith	ja-JP	jar:chrome/searchwith.jar!/locale/ja-JP/
-locale	searchwith	pt-BR	jar:chrome/searchwith.jar!/locale/pt-BR/
-locale	searchwith	tr-TR	jar:chrome/searchwith.jar!/locale/tr-TR/
+locale	searchwith	en-US	chrome/locale/en-US/
+locale	searchwith	da-DK	chrome/locale/da-DK/
+locale	searchwith	de-DE	chrome/locale/de-DE/
+locale	searchwith	el-GR	chrome/locale/el-GR/
+locale	searchwith	es-ES	chrome/locale/es-ES/
+locale	searchwith	fr-FR	chrome/locale/fr-FR/
+locale	searchwith	hr-HR	chrome/locale/hr-HR/
+locale	searchwith	it-IT	chrome/locale/it-IT/
+locale	searchwith	ja-JP	chrome/locale/ja-JP/
+locale	searchwith	pt-BR	chrome/locale/pt-BR/
+locale	searchwith	tr-TR	chrome/locale/tr-TR/
