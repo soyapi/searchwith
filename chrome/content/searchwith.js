@@ -223,7 +223,7 @@ var SearchWith = {
     
     chooseEngine: function(selText, aServiceId, aSelectAll, aBrowser) 
     {
-		//selText = selText.replace(/\s+/g, "%20");
+		selText = escape(selText);
         if (aServiceId == "url") {
 			if (!this.isURL(selText)) {
 				this.openBrowserTab("http://google.com/search?q="+selText+"&btnI", aBrowser);
