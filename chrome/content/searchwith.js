@@ -223,8 +223,7 @@ var SearchWith = {
     
     chooseEngine: function(selText, aServiceId, aSelectAll, aBrowser) 
     {
-		selText = escape(selText);
-        if (aServiceId == "url") {
+		if (aServiceId == "url") {
 			if (!this.isURL(selText)) {
 				this.openBrowserTab("http://google.com/search?q="+selText+"&btnI", aBrowser);
             } else {
@@ -246,6 +245,7 @@ var SearchWith = {
         var swServices = this.getServices();
         var anEngine = "";
         var anEngineId = "";
+		selText = escape(selText);
         
         if (aServiceId == "all") {
             for (var i=0; i<swServices.length; i++) {
