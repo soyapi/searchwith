@@ -97,19 +97,19 @@ var SearchWithOptionsEngine = {
 			return false;
 		}
 
-		if (this.engineLabel.value.trim().length > 0)
+		if (SearchWith.trim(this.engineLabel.value).length > 0)
 			this.swEngine.setName(this.engineLabel.value);
 			
-		if (this.engineLeftURL.value.trim().length > 0)	
+		if (SearchWith.trim(this.engineLeftURL.value).length > 0)	
 			this.swEngine.setLeftUrl(this.engineLeftURL.value);
 			
-		if (this.engineRightURL.value.trim().length > 0)	
+		if (SearchWith.trim(this.engineRightURL.value).length > 0)	
 			this.swEngine.setRightUrl(this.engineRightURL.value);
 			
-		if (this.engineIconPath.value.trim().length > 0)	
+		if (SearchWith.trim(this.engineIconPath.value).length > 0)	
 			this.swEngine.setIconPath(this.engineIconPath.value);
 			
-		if (this.serviceList.value.trim().length > 0)	
+		if (SearchWith.trim(this.serviceList.value).length > 0)	
 			this.swEngine.setServiceId(this.serviceList.selectedItem.value);
 
 		this.engineList.selectedItem.label = this.engineLabel.value;

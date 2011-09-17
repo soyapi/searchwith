@@ -70,7 +70,7 @@ var SearchWithOptions = {
         var newServiceId = "";
         
         newServiceName = document.getElementById("searchwith-prefs-new-service").value;
-        newServiceName.trim();
+        SearchWith.trim(newServiceName);
         if (newServiceName.length <1) {
             return;
         }
@@ -137,7 +137,7 @@ var SearchWithOptions = {
         SearchWith.removeChildren(this.swPluginDirList);
         
         for (each in swPluginDirs) {
-            if (swPluginDirs[each].trim().length<1) {
+            if (SearchWith.trim(swPluginDirs[each]).length<1) {
                 continue;
             }
 			var aListItem = this.swPluginDirList.appendItem(swPluginDirs[each], 
@@ -244,7 +244,7 @@ var SearchWithOptions = {
         var newEngineId = "";
     
         newEngineName = document.getElementById("searchwith-prefs-new-engine").value;
-        newEngineName = newEngineName.trim();
+        newEngineName = SearchWith.trim(newEngineName);
         if (newEngineName.length <1) {
             return;
         }
@@ -320,7 +320,7 @@ var SearchWithOptions = {
     checkAddServiceBtn: function(aEvent) 
     {
         var newService = document.getElementById("searchwith-prefs-new-service").value;
-        newService = newService.trim();
+        newService = SearchWith.trim(newService);
         if (newService.length <1) {
             document.getElementById("searchwith-prefs-add-service-button").disabled = true;
         } else {
@@ -391,7 +391,7 @@ var SearchWithOptions = {
     
     addDir: function() 
     {
-		var newPath = document.getElementById("searchwith-prefs-new-plugindir").value.trim();
+		var newPath = SearchWith.trim(document.getElementById("searchwith-prefs-new-plugindir").value);
 		if (newPath.length < 1) {
 			newPath = SearchWith.browse4Dir();
 		} else {
@@ -457,12 +457,12 @@ var SearchWithOptions = {
 	{
 		var newServiceName = document.getElementById("searchwith-prefs-new-service");
 		var newEngineName = document.getElementById("searchwith-prefs-new-engine");
-		if (newServiceName.value.trim().length > 0) {
+		if (SearchWith.trim(newServiceName.value).length > 0) {
 			this.addService();
 			return false;
 		}
 
-		if (newEngineName.value.trim().length > 0) {
+		if (SearchWith.trim(newEngineName.value).length > 0) {
 			this.addEngine();
 			return false;
 		}

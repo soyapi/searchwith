@@ -70,7 +70,7 @@ SearchWithService.prototype = {
 		
 	isEnabled: function() 
 	{
-		return (this.getEngineId().trim().length > 0);
+		return (SearchWith.trim(this.getEngineId()).length > 0);
 	},
 	
 	setName: function(aName) 

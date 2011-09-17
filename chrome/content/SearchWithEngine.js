@@ -39,7 +39,7 @@ SearchWithEngine.prototype = {
     getName: function() 
     {
 		var engineName = SearchWith.getCVPref("engine."+this.engineId+".name");
-		if (name.trim().length < 1)
+		if (SearchWith.trim(name).length < 1)
 			return this.engineId;
 		  
 		return engineName;
@@ -59,7 +59,7 @@ SearchWithEngine.prototype = {
     {
         var iconPath = "";
 		iconPath = SearchWith.getCVPref("engine."+this.engineId+".iconpath");
-		if (iconPath.trim().length < 1) {
+		if (SearchWith.trim(iconPath).length < 1) {
 			var urlParts = this.getLeftUrl().split("/");
 			if (urlParts[0] && urlParts[2]) {
 				iconPath = urlParts[0]+"//"+urlParts[2]+"/favicon.ico";	
@@ -118,7 +118,7 @@ SearchWithEngine.prototype = {
     
     isEnabled: function() 
     {
-        return (this.getLeftUrl().trim().length > 0);
+        return (SearchWith.trim(this.getLeftUrl()).length > 0);
     },
 	
     setServiceId: function(aServiceId) 

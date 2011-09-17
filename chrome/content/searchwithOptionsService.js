@@ -60,11 +60,11 @@ var SearchWithOptionsService = {
 		
 		for (var i=0; i<swEngines.length; i++) {
 			var thisEngine = new SearchWithEngine(swEngines[i]);
-			if (thisEngine.getName().trim().length < 1 || 
-					swEngines[i].trim().length < 1) {
+			if (SearchWith.trim(thisEngine.getName()).length < 1 || 
+					SearchWith.trim(swEngines[i]).length < 1) {
 					continue;
 			}
-			if (thisEngine.getLeftUrl().trim().length < 1) {
+			if (SearchWith.trim(thisEngine.getLeftUrl()).length < 1) {
 					continue;
 			}
 

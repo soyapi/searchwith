@@ -120,11 +120,11 @@ var SearchWithAdvancedSearch = {
         var mi;
         for (engine in swEngines) {
             var thisEngine = new SearchWithEngine(swEngines[engine]);
-            if (thisEngine.getName().trim().length < 1 || 
-                swEngines[engine].trim().length < 1) {
+            if (SearchWith.trim(thisEngine.getName()).length < 1 || 
+                SearchWith.trim(swEngines[engine]).length < 1) {
                 continue;
             }
-            if (thisEngine.getLeftUrl().trim().length < 1) {
+            if (SearchWith.trim(thisEngine.getLeftUrl()).length < 1) {
                 continue;
             }
 			if (swEngines[engine] == currentService.getEngineId()) {

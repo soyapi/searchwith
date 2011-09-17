@@ -282,26 +282,26 @@ var SearchWith = {
 		    (node instanceof HTMLInputElement && node.type == "text")) {
         
             selText = node.value.substring(node.selectionStart, node.selectionEnd);
-            selText = selText.trim();
+            selText = SearchWith.trim(selText);
         } 
         else {
             var focusedWindow = new XPCNativeWrapper(
 			     document.commandDispatcher.focusedWindow, 'window', 'getSelection()');
             selText = focusedWindow.getSelection().toString();
-            selText = selText.trim();
+            selText = SearchWith.trim(selText);
         }
         
         if (selText.length <1) { 
-			selText = window.getSelection().toString().trim();
+			selText = SearchWith.trim(window.getSelection().toString());
         }
         
 		// use link url when a link is clicked and no text selected
 		if (typeof gContextMenu != "undefined") {
 			if (selText.length<1 && gContextMenu.onLink) {
 				if (typeof gContextMenu.linkURL != "function") {
-					selText = gContextMenu.linkURL.trim();
+					selText = SearchWith.trim(gContextMenu.linkURL);
 				} else if (gContextMenu.linkURL()){
-					selText = gContextMenu.linkURL().trim();
+					selText = SearchWith.trim(gContextMenu.linkURL());
 				}
 			}
 		}
@@ -370,7 +370,7 @@ var SearchWith = {
 			if (thisEngine.getLeftUrl().length < 1)
 				continue;
 
-			if (thisEngine.getServiceId().trim() == aServiceId) {
+			if (SearchWith.trim(thisEngine.getServiceId()) == aServiceId) {
 				serviceEngines.push(swEngines[i]);
 			}
 		}
@@ -380,7 +380,7 @@ var SearchWith = {
     // remove special characters from name to create an id
     createId: function(aName) 
 	{
-        var newId = aName.trim();
+        var newId = SearchWith.trim(aName);
         if (newId.length <1) {
             return "";
         }
@@ -820,9 +820,11 @@ var SearchWith = {
             var cqrdelim = "\\";
         }
         return cqrdelim;
-    }
-
-
+    },
+	
+	trim: function(text) {
+		return text.replace(/^\s+|\s+$/g, ''); 
+	}
 	
 };
 
@@ -877,13 +879,9 @@ var SWLegacy = {
             return "";
         }
 	}
+	
 }
 
-// Add trim() method to String Class
-String.prototype.trim = function() 
-{ 
-    return this.replace(/^\s+|\s+$/g, ''); 
-};
 
 window.addEventListener("load", SearchWith.load, false);
 
