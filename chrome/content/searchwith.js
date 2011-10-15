@@ -245,7 +245,7 @@ var SearchWith = {
         var swServices = this.getServices();
         var anEngine = "";
         var anEngineId = "";
-		selText = escape(selText);
+		selText = encodeURIComponent(selText);
         
         if (aServiceId == "all") {
             for (var i=0; i<swServices.length; i++) {
