@@ -29,6 +29,7 @@
     <em:targetApplication RDF:resource="rdf:#$145Rb3"/>
     <em:contributor>Vasa Maximov, ConQuery (Mycroft Plugins Integration)</em:contributor>
     <em:contributor>Steve McMillen (Thunderbird 3 compatibilty)</em:contributor>
+    <em:contributor>rns (UTF-8 support)</em:contributor>
     <em:contributor>Luana Di Muzio, BabelZilla (Italian translation)</em:contributor>
     <em:contributor>AlleyKat, BabelZilla (Danish translation)</em:contributor>
     <em:contributor>Fenian, BabelZilla (German translation)</em:contributor>
